@@ -1,0 +1,7 @@
+terraform init -upgrade
+
+
+export TF_LOG=TRACE
+
+
+terraform init -reconfigure
